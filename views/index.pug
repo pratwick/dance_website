@@ -1,0 +1,75 @@
+//- index.pug
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+    script
+      include ../static/index.js
+  body
+    h1#head1 KAYU 
+    h2#hd2 Dancing School
+    nav#navbar 
+        ul 
+            li #[a(href="/home") Home]
+            li #[a(href="/about") About]
+            li #[a(href="/services") Services]
+            li #[a(href="/team") Team] 
+            li #[a(href="/contact") Contact us]
+      
+  section#introSection 
+      h1#intro Welcome To
+      h1#intro2 DANCING
+      button#btn(onclick='hide()') Read more
+      p#para Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero repellat dolorum voluptatum perspiciatis rerum necessitatibus repudiandae voluptas harum explicabo, architecto minima dolore velit nam consequatur vitae soluta libero officia! Temporibus praesentium quis dolorem reiciendis soluta? Hic, tenetur quisquam! Unde, tempore!
+ 
+     
+  section#about 
+      div#left 
+            img(src='/static/img1.png',alt='Dance Academy')
+     
+      div#middle
+          h1#about1 About Us
+          h2#about2 leading Dance Academy in Indore 
+          p#para2 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus cumque dicta beatae voluptatem soluta delectus! Nesciunt quae quis tempore architecto. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus itaque ad et ullam fuga provident aperiam id temporibus enim incidunt.
+          h3#schedule Schedule Timings
+          div#time   
+             div
+                h2 Class 1
+                h3 7am-10am
+             div
+                h2 Class 2
+                h3 10am-1pm
+             div 
+                h2 Class 3
+                h3 2pm-5pm
+
+      div#right    
+            img(src='/static/img2.png',alt='Dance Academy')
+          
+  section#services
+    h1 Services
+    p#para3 Lorem ipsum dolor sit amet consectetur adipisicin imilique numquam odit nobis voluptates.
+    div#container
+      div#item1
+         img(src="/static/logo1.jpg", alt="")
+         h2 Best performance
+         p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, necessitatibus?
+         h3.underline __________
+      div#item2
+         img(src="/static/logo2.jpg", alt="")
+         h2 Online Advicer
+         p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, rerum?
+         h3.underline __________
+      div#item3
+         img(src="/static/logo3.png", alt="")
+         h2 New Technologies 
+         p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, expedita!
+         h3.underline __________
+      div#item
+         img(src="/static/logo4.png", alt="")
+         h2 Security & Privacy
+         p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, commodi!
+         h3.underline __________
+  footer#footer
+      p#footpara @ 2021 Kayu Dancing School. All right reserved | Designed by Pr@tham $harm@

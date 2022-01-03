@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#head1{
+    margin :18px 15px 3px 70px;
+    font-size: 37px;
+    color: rgb(193 47 107);
+}
+
+#hd2{
+    margin: 2px 2px 12px 74px;
+    font-size: 14px;
+    color: rgb(141 135 135);
+}
+
+#navbar ul {
+    position: sticky;
+    display : flex;
+    justify-content: right;
+    padding: 6px;
+    background-color:#8d098d;
+}
+
+#navbar ul li {
+    padding: 5px 15px;
+    margin: 2px 8px;
+    list-style: none;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+#navbar a:hover{
+    color:rgb(216, 0, 83)
+}
+
+#chead{
+    text-align: center;
+    margin: 25px 2px;
+    color: rgb(197 47 107);
+
+}
+
+#navbar::before{
+    content: "";
+    background: url('/static/guitar-1699501_1920.jpg') center center no-repeat;
+    position: absolute;
+    z-index : -1;
+    height: 723px;
+    width: 100%;
+}
+#contact_cont{
+    display:flex;
+
+}    
+.myform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 92px 63px 89px 63px;
+    padding: 24px;
+    border-radius: 24px;
+}
+.myform h3{
+   margin: 3px 2px 23px 2px ;
+   font-size: 25px;
+   color: #c52f6b;
+}
+.myform input{
+    width: 400px;
+    padding: 7px;
+    margin: 8px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.contactBtn{
+    width: 90px;
+    background-color: #8d098d;
+    padding: 7px;
+    margin: 17px 2px 2px 2px;
+    font-size: 16px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 15px; 
+}
+
+
+#footer{
+    height: 50px;
+    background-color:#c52f6b ;
+}
+
+#footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img_cont{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 842px;
+}
+
+#img_cont img{
+    height: 190px;
+    width: 250px;
+    margin: 15px;
+    border-radius: 66px;
+}
+
+#details{
+    height: 190px;
+    width: 250px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 16px;    
+}
+
+
+#contactFoot{
+    display:flex;
+    height: 200px;
+}
+#foot1{
+    margin: 50px 40px 50px 100px;
+}
+#foot1 h3{
+      margin: 2px;
+      font-size: 21px;
+      color: #c52f6b;
+}
+#p1{
+    margin: 6px 2px;
+}
+
+#p2{
+   margin: 2px 2px;
+}
+
+#p3{
+   margin: 2px 2px;
+}
+
+#p4{
+   margin: 8px 2px;
+}
+
+#foot2{
+    margin: 50px 35px 50px 55px;
+}
+
+#foot2 h3{
+    margin: 2px;
+    font-size: 21px;
+    color: #c52f6b;
+}
+
+#foot3{
+    margin: 50px 130px 30px 130px;
+}
+
+#foot3 h1{
+    font-size:40px ;
+    color: #c52f6b;
+}
+
+#foot3 h2{
+    text-align: center;
+}

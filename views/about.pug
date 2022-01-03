@@ -1,0 +1,46 @@
+extends base.pug
+
+block scripts 
+      script(src="/static/index.js" ) 
+
+block style 
+      style
+           include ../static/style.css
+
+block content  
+   h1#head1 KAYU 
+   h2#hd2 Dancing School
+   nav#navbar 
+        ul 
+            li #[a(href="/home") Home]
+            li #[a(href="/about") About]
+            li #[a(href="/services") Services]
+            li #[a(href="/team") Team]
+            li #[a(href="/contact") Contact us]
+   section#about 
+      div#left 
+            img(src='/static/img1.png',alt='Dance Academy')
+     
+      div#middle
+          h1#about1 About Us
+          h2#about2 leading Dance Academy in Indore 
+          p#para2 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus cumque dicta beatae voluptatem soluta delectus! Nesciunt quae quis tempore architecto. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus itaque ad et ullam fuga provident aperiam id temporibus enim incidunt.
+          h3#schedule Schedule Timings
+          div#time   
+             div
+                h2 Class 1
+                h3 7am-10am
+             div
+                h2 Class 2
+                h3 10am-1pm
+             div 
+                h2 Class 3
+                h3 2pm-5pm
+
+      div#right    
+            img(src='/static/img2.png',alt='Dance Academy')
+             
+
+block foot
+   footer#footer
+      p#footpara @ 2021 Kayu Dancing School. All right reserved | Designed by Pr@tham $harm@

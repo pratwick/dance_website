@@ -1,0 +1,49 @@
+extends base.pug
+
+block scripts
+      script(src="/static/index.js" )
+
+block style 
+      style
+           include ../static/style3.css
+
+block content  
+    h1#head1 KAYU 
+    h2#hd2 Dancing School
+    nav#navbar 
+        ul 
+            li #[a(href="/home") Home]
+            li #[a(href="/about") About]
+            li #[a(href="/services") Services]
+            li #[a(href="/team") Team]
+            li #[a(href="/contact") Contact us]
+    
+    div#services
+       div#container
+         div#back
+            img(src="../static/portBackground.jpg", alt="img")
+         div#imgContainer
+            div.items
+               h3 Ballet
+               img(src="../static/port1.jpg", alt="img")
+            div.items
+               h3 Choreography
+               img(src="../static/port2.jpg", alt="img")
+            div.items
+               h3 Contemporary
+               img(src="../static/port3.jpg", alt="img")
+            div.items
+               h3 Dance Fitness
+               img(src="../static/port4.jpg", alt="img")
+            div.items
+               h3 Jazz Funk
+               img(src="../static/port5.jpg", alt="img")
+            div.items
+               h3 Street Dance
+               img(src="../static/port6.jfif", alt="img")
+            
+
+
+block foot
+   footer#footer
+      p#footpara @ 2021 Kayu Dancing School. All right reserved | Designed by Pr@tham $harm@

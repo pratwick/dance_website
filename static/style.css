@@ -1,0 +1,243 @@
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#head1{
+    margin :18px 15px 3px 70px;
+    font-size: 37px;
+    color: rgb(193 47 107);
+}
+
+#hd2{
+    margin: 2px 2px 12px 74px;
+    font-size: 14px;
+    color: rgb(141 135 135);
+}
+
+#navbar ul {
+    position: sticky;
+    display : flex;
+    justify-content: right;
+    padding: 6px;
+    background-color:#8d098d;
+}
+
+#navbar ul li {
+    padding: 5px 15px;
+    margin: 2px 8px;
+    list-style: none;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+#navbar a:hover{
+    color:rgb(216, 0, 83)
+}
+
+#intro{
+    font-size: 22px;
+    font-weight: lighter;
+    margin: 30px;
+    color: cornsilk;
+}
+
+#introSection::before{
+    content: " ";
+    background: url('/static/maick-maciel-_v8C6BlpBzY-unsplash.jpg') center center no-repeat;
+    background-size: cover;
+    position: absolute;   
+    height: 600px;
+    width: 100%;
+    z-index: -1;   
+}
+
+#introSection{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#intro2{
+    font-size: 85px;
+    margin: 2px;
+    color: cornsilk;
+}
+#btn{
+   
+    height: 34px;
+    width: 91px;
+    font-size: 15px;
+    background-color: rgb(216 0 83);
+    border: 2px solid #0a0b0a;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 12px 2px 2px 2px;
+}
+#para{
+    color: white;
+    text-align: center;
+    height: 20%;
+    width: 40%;
+    margin: 22px 2px;
+}
+
+#about{
+    height: 700px;
+    background-color: white;
+    display: flex;
+}
+
+#services{
+    height: 397px;
+    background-color: white;
+
+}
+
+
+
+#left img{
+    width: 80%;
+    height:540px;
+    margin: 52px 12px 2px 2px;
+}
+
+#middle{
+    width:680px;
+    height:700px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#about1{
+    font-size: 46px;
+    margin: 38px;
+    color: #575252;
+}
+
+#about2{
+    font-size: 33px;
+    margin: 2px 6px 35px 6px;
+    color: #c12f6b;
+}
+
+#para2{
+    font-size: 20px;
+    margin: 6px 2px 50px 2px;
+    text-align: center;
+    color: #575252;
+}
+
+#schedule{
+    font-size: 23px;
+    margin : 10px ;
+    width: 100%;
+    background-color:rgb(80 80 80);;
+    color: #e5e2e2;
+    padding: 17px 0px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#time{
+    display:flex;
+    flex-direction: row;
+}
+#time div{
+    margin: 33px;
+    padding: 34px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+#time div h2{
+    font-size: 30px;
+    margin: 2px;
+    text-align: center;
+    color: grey;
+}
+#time div h3{
+    font-size: 18px;
+    margin: 2px;
+    text-align: center;
+    color: #c12f6b;;
+}
+
+#right img{
+    height: 470px;
+    width: 70%;
+    margin: 101px 2px 2px 48px;
+}
+
+#services{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#services h1{
+    font-size: 40px;
+    margin: 22px;
+    color: #c52f6b;
+}
+#para3{
+    font-size: 16px;
+    margin: 2px  0px 30px 0px;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top : 10px ;
+    background-color: rgb(89 89 89);
+}
+
+#container div{
+    margin :30px;
+}
+#container div h2{
+    margin:8px 2px;
+    color: #adadad;
+}
+#container div p{
+    font-size: 15px;
+    text-align: center;
+    margin: 4px 47px;
+    color: #e5e2e2;
+}
+
+#container div img{
+    height: 60px;
+    width: 60px;
+    border: 1px solid black;
+    border-radius: 60px;
+}
+
+.underline{
+    color: #c52f6b;
+    font-size: 20px;
+    font-weight: 2px;
+}
+#footer{
+    height: 50px;
+    background-color:#c52f6b ;
+}
+
+#footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

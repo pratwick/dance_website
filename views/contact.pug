@@ -1,0 +1,49 @@
+extends base.pug
+
+block scripts
+      script(src="/static/index.js" )
+
+block style 
+      style
+           include ../static/style2.css
+
+block content  
+    h1#head1 KAYU 
+    h2#hd2 Dancing School
+    nav#navbar 
+        ul 
+            li #[a(href="/home") Home]
+            li #[a(href="/about") About]
+            li #[a(href="/services") Services]
+            li #[a(href="/team") Team] 
+            li #[a(href="/contact") Contact us]
+    div#cont 
+      h1#chead Contact Us
+      div#contact_cont
+       form.myform(action ="/contact" , method="post")
+          h3 Enter Your Details
+          input.item(type='text' name='name' placeholder='Enter Your Name')
+          input.item(type='email' name='email' placeholder='Enter Your Email')
+          input.item(type='phone' name='phone' placeholder='Enter Your Phone')
+          input.item(type='adderss' name='address' placeholder='Enter Your address')
+          input.item(type='qualifications' name='qualification' placeholder='Enter Your qualifications')
+          button.contactBtn Submit
+
+    div#contactFoot
+       div#foot1
+            h3 Contact
+            p#p1 prarhamsharma1234@gmail.Contemporary
+            p#p2 9691864259
+            p#p3 9770300470
+       div#foot2
+            h3 location 
+            p#p4 40 ManBhavan Nagar kanadiya road ,Indore(M.P)
+
+       div#foot3
+            h1 KAYU Dancing School
+            h2 Indore, M.P
+                  
+block foot
+   footer#footer
+      p#footpara @ 2021 Kayu Dancing School. All right reserved | Designed by Pr@tham $harm@
+

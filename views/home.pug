@@ -1,0 +1,30 @@
+extends base.pug
+
+block scripts 
+      script(src="/static/index.js" ) 
+
+block style 
+      style
+           include ../static/style.css
+
+block content  
+   h1#head1 KAYU 
+   h2#hd2 Dancing School
+   nav#navbar 
+        ul 
+            li #[a(href="/home") Home]
+            li #[a(href="/about") About]
+            li #[a(href="/services") Services]
+            li #[a(href="/team") Team]
+            li #[a(href="/contact") Contact us]
+      
+   section#introSection 
+      h1#intro Welcome To
+      h1#intro2 DANCING
+      button#btn(onclick='hide()') Read more
+      p#para Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, nostrum!
+      
+
+block foot
+   footer#footer
+      p#footpara @ 2021 Kayu Dancing School. All right reserved | Designed by Pr@tham $harm@

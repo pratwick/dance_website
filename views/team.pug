@@ -1,0 +1,39 @@
+extends base.pug
+
+block scripts
+      script(src="/static/index.js" )
+
+block style 
+      style
+           include ../static/style4.css
+
+block content  
+    h1#head1 KAYU 
+    h2#hd2 Dancing School
+    nav#navbar 
+        ul 
+            li #[a(href="/home") Home]
+            li #[a(href="/about") About]
+            li #[a(href="/services") Services]
+            li #[a(href="/team") Team]
+            li #[a(href="/contact") Contact us]
+
+    div#team
+       h1 Our Team 
+       div#container_team
+          div.item
+             h2 Pratham Sharma
+             img(src="../static/port5.jpg", alt="mentor")
+             p Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis harum neque hic similique ratione dicta odit minus ipsum ut laboriosam.
+          div.item
+             h2 Abhishek Panchal
+             img(src="../static/port6.jfif", alt="mentor")
+             p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, quidem at? Cupiditate mollitia tempore dolores nemo pariatur exercitationem iusto maxime.
+          div.item 
+             h2 Ayushi Panchal 
+             img(src="../static/img1.png", alt="mentor")
+             p Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur odit quod cumque soluta eaque fuga vitae, sequi quam ipsam ut.
+
+block foot
+   footer#footer
+      p#footpara @ 2021 Kayu Dancing School. All right reserved | Designed by Pr@tham $harm@

@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#head1{
+    margin :18px 15px 3px 70px;
+    font-size: 37px;
+    color: rgb(193 47 107);
+}
+
+#hd2{
+    margin: 2px 2px 12px 74px;
+    font-size: 14px;
+    color: rgb(141 135 135);
+}
+
+#navbar ul {
+    position: sticky;
+    display : flex;
+    justify-content: right;
+    padding: 6px;
+    background-color:#8d098d;
+}
+
+
+
+#navbar ul li {
+    padding: 5px 15px;
+    margin: 2px 8px;
+    list-style: none;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+#navbar a:hover{
+    color:rgb(216, 0, 83)
+}
+
+#navbar::before{
+    content:"";
+
+    position: absolute;
+    height: 558px;
+    width: 100%;
+    z-index: -1;
+}
+
+#team{
+    background:url(/static/sunset-4762113_1920.jpg);
+    height: 643px;
+    opacity: 0.9;
+}
+#team h1{
+    text-align: center;
+    padding: 20px 0px 2px 0px;
+    color: white;
+}
+#container_team{
+    display: flex;
+    margin-top: 50px;
+
+}
+
+.item {
+    margin: 2px 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 350px;
+    border-radius: 8px;
+    background-color: #ffffff80;
+}
+
+    
+.item h2{
+    margin: 22px 2px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.item img {
+    border: 2px solid black;
+    height: 163px;
+    width: 243px;
+    margin: 2px;
+}
+
+.item p {
+    height: 113px;
+    width: 235px;
+    text-align: center;
+    margin: 23px 56px;
+}
+
+#footer{
+    height: 50px;
+    background-color:#c52f6b ;
+}
+
+#footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
